@@ -1,0 +1,135 @@
+body{
+    
+    
+    margin: 0;
+    text-align: center;
+    font-family:  "Merriweather",serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    color: #a15906;
+    font-family: "Sacramento",cursive;
+    font-size: 562.5%;
+    font-weight: normal;
+    line-height: 2;
+}
+h2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    color: #a15906;
+    
+}
+h3{
+    font-family: "Montserrat",sans-serif;
+    color: #adedde;  
+}
+
+hr{
+    width: 5% ;
+    border: dotted;
+    border-bottom: none;
+    border-width: thick;
+    border-color: #8ee6eb;
+  
+}
+p{
+    line-height: 2em;
+}
+
+.top_container{
+    background-color: rgb(222, 174, 111);
+    padding-top: 100px;
+    position: relative;
+  
+    
+}
+    
+.middle_container{
+    background-color: cadetblue;
+    padding: 75px;
+  
+
+}
+.bottom-container{
+    background-color: darkolivegreen;
+    position: relative;
+    padding: 50px 0px 10px;
+}
+
+.top-cloud{
+    position: absolute;
+    left: 18.75em;
+    bottom: 21.875em;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    right: 18.75em;
+    top: 3.125em;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+.piano-code{
+    width: 25%;
+    float: right;
+    padding-left: 20px;
+}
+.pc-code{
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+
+.footer-link{
+    color: rgb(64, 222, 132);
+    margin: 50px;
+    font-family:"Montserrat",sans-serif;
+    text-decoration:none;
+
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.intro{
+    width: 30%;
+    margin: 0 auto 50px;
+}
+.contact-message{
+    width: 30%;
+
+    margin: 0 auto 30px;
+}
+.myButton {
+	background-color:#4f785a;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Montserrat",sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #147a04;
+}
+.myButton:hover {
+	background-color:#44b00a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+        
